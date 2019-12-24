@@ -35,7 +35,7 @@ p {
 .resume {
   height: 100%;
   /* min-height: 90vh; */
-  width: 100vw;
+  width: 100%;
   display: inline-block;
   margin: 0;
   text-align: center;
@@ -74,13 +74,14 @@ p {
 	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans|Trochut|Yeseva+One&display=swap');
 .tracking-in-expand {
-  font-family: 'Arizonia', serif;
+  font-family: 'Expletus Sans', 'Federo', 'Yeseva One', 'Trochut', 'Georgia', serif;
   display: block;
   justify-content: center;
   padding: 15px 0px 25px 0px;
-	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.1, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1s cubic-bezier(0.215, 0.1, 0.355, 1.000) both;
 }
 
  @-webkit-keyframes tracking-in-expand {
@@ -136,7 +137,7 @@ p {
 .projects {
   height: 100%;
   min-height: 78vh;
-  width: 100vw;
+  width: 100%;
   background: linear-gradient(to bottom,  #93c4c0 3%,#c4e4c5 60%,#faead1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7f1f1', endColorstr='#685d99',GradientType=0 ); /* IE6-9 */
   font-size: 18px;

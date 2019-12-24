@@ -46,6 +46,8 @@ const HomeInfo = styled.div`
     > a {
         color: rgba(0, 0, 0, 0.7);
         text-decoration: none;
+        display: block;
+        margin-top: 14px;
     }
 
     > a:hover {
@@ -65,7 +67,8 @@ export default function Home() {
                 <img src='https://cdn.discordapp.com/attachments/632280517013930044/646137622149726208/myface.jpg' alt='myprofile' />
             </ImageDiv>
             <HomeInfo className='homeInfo'>
-                <a href="https://github.com/jaxclark">My GitHub</a>
+                <a href="https://www.linkedin.com/in/jaxclark/">LinkedIn</a>
+                <a href="https://github.com/jaxclark">GitHub</a>
                 <p>Phone#: (801)661-9908</p>
                 <p>Email: jamaecla@gmail.com</p>
             </HomeInfo>
