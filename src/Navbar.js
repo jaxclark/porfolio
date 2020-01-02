@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className='navbar'>
             <Name className='tracking-in-expand'>Jax Clark</Name>
             <StyledDiv>
-                <NavLink className='navLink' activeClassName='navLinkActive' exact to='/'>Home</NavLink>
+                <NavLink className='navLink' activeClassName='navLinkActive' exact to='/'>Projects</NavLink>
                 <NavLink className='navLink' activeClassName='navLinkActive' exact to='/resume'>Resume</NavLink>
                 <NavLink className='navLink' activeClassName='navLinkActive' exact to='/about'>About</NavLink>
             </StyledDiv>
