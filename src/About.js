@@ -60,7 +60,7 @@ const HomeInfo = styled.div`
     }
 `
 
-export default function Home() {
+export default function About() {
     return(
         <StyledDiv className='home'>
             <ImageDiv className='imgDiv'>
