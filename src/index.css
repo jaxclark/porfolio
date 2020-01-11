@@ -21,14 +21,65 @@ p {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e7f1f1+1,7cb3bc+52,685d99+100 */
   background: linear-gradient(to bottom,  #93c4c0 3%,#c4e4c5 60%,#faead1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7f1f1', endColorstr='#685d99',GradientType=0 );
+  height: 100%;
+  min-height: 76vh;
+  width: 100%;
+  font-size: 18px;
+  color: rgb(35, 49, 43);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 0px;
+  text-align: center;
+}
+.home > a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+.home > a:hover {
+  color: rgb(14, 19, 16);
+  text-decoration: underline;
 }
 
 .imgDiv {
+  grid-column: 1/2;
+  padding: 40px 10px 0px 40px;
+}
+.imgDiv> img {
+   height: 300px;
+   width: auto;
+   padding: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   background-color: rgb(255, 255, 255);
+}
+
+.aboutDiv {
   grid-column: 2/3;
+  padding: 40px;
+  text-align: start;
+}
+.aboutDiv > p {
+    margin: 0;
+    padding: 0;
 }
 
 .homeInfo {
   grid-column: 3/4;
+  text-align: start;
+  padding: 80px 40px 0px 40px
+
+}
+.homeInfo > a {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    display: block;
+    margin-top: 14px;
+}
+.homeInfo > a:hover {
+    color: rgb(14, 19, 16);
+    text-decoration: underline;
+}
+.homeInfo > p {
+    margin-top: 14px;
 }
 
 
@@ -154,6 +205,7 @@ p {
   grid-row: 1/2;
   justify-self: center;
   text-align: center;
+  padding-top: 15px;
 }
 .project1 > a {
   color: rgba(0, 0, 0, 0.7);
@@ -164,17 +216,26 @@ p {
   color: rgb(14, 19, 16);
   text-decoration: underline;
 }
-.project1 > img {
+.project1 > a > img {
   display: block;
   height: auto;
-  width: 400px;
-  padding: 40px;
+  width: 760px;
+  margin-top: 12px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgb(255, 255, 255);
 }
 
 .project2 {
   grid-row: 2/3;
   justify-self: center;
   text-align: center;
+  padding: 10px;
+}
+.project2 > p {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  display: block;
 }
 .project2 > a {
   color: rgba(0, 0, 0, 0.7);
@@ -185,17 +246,21 @@ p {
   color: rgb(14, 19, 16);
   text-decoration: underline;
 }
-.project2 > img {
+.project2 > a > img {
   display: block;
   height: auto;
-  width: 400px;
-  padding: 40px;
+  width: 760px;
+  margin-top: 12px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgb(255, 255, 255);
 }
 
 .project3 {
   grid-row: 3/4;
   justify-self: center;
   text-align: center;
+  padding: 10px;
 }
 .project3 > a {
   color: rgba(0, 0, 0, 0.7);
@@ -206,11 +271,14 @@ p {
   color: rgb(14, 19, 16);
   text-decoration: underline;
 }
-.project3 > img {
+.project3 > a > img {
   display: block;
   height: auto;
-  width: 400px;
-  padding: 40px;
+  width: 760px;
+  margin-top: 12px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgb(255, 255, 255);
 }
 
 .navLink {
@@ -226,4 +294,53 @@ p {
 .navLinkActive {
   color: rgb(14, 19, 16);
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .project1 > a > img {
+    width: 600px;
+  }
+  .project2 > a > img {
+    width: 600px;
+  }
+  .project3 > a > img {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+    flex-direction: row;
+  }
+  .imgDiv {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 10px 20px;
+  }
+  .homeInfo {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .aboutDiv {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 10px 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .project1 > a > img {
+    width: 460px;
+  }
+  .project2 > a > img {
+    width: 460px;
+  }
+  .project3 > a > img {
+    width: 460px;
+  }
 }

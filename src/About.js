@@ -1,77 +1,27 @@
 import React from 'react'
-import styled from 'styled-components'
-
-const StyledDiv = styled.div`
-    height: 100%;
-    min-height: 76vh;
-    width: 100%;
-    font-size: 18px;
-    color: rgb(35, 49, 43);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 30px 0px;
-    text-align: center;
-
-    > a {
-        color: rgba(0, 0, 0, 0.7);
-        text-decoration: none;
-    }
-
-    > a:hover {
-        color: rgb(14, 19, 16);
-        text-decoration: underline;
-    }
-`
-const ImageDiv = styled.div`
-    grid-column: 2/3;
-    padding: 40px 0px 0px 0px;
-
-     > img {
-        height: 300px;
-        width: auto;
-        padding: 10px;
-        border: 1px solid rgba(0, 0, 0, 0.5);
-        background-color: rgb(255, 255, 255);
-    }
-`
-
-const HomeInfo = styled.div`
-    grid-column: 3/4;
-    text-align: start;
-    position: relative;
-    top: 0;
-    left: 50%;
-    padding: 80px 0px 0px 0px
-
-    > a {
-        color: rgba(0, 0, 0, 0.7);
-        text-decoration: none;
-        display: block;
-        margin-top: 14px;
-    }
-
-    > a:hover {
-        color: rgb(14, 19, 16);
-        text-decoration: underline;
-    }
-
-    > p {
-        margin-top: 14px;
-    }
-`
 
 export default function About() {
     return(
-        <StyledDiv className='home'>
-            <ImageDiv className='imgDiv'>
+        <div className='home'>
+            <div className='imgDiv'>
                 <img src='https://cdn.discordapp.com/attachments/632280517013930044/646137622149726208/myface.jpg' alt='myprofile' />
-            </ImageDiv>
-            <HomeInfo className='homeInfo'>
+            </div>
+            <div className='aboutDiv'>
+                <p>Growing up, I always loved the interactive nature of video games. 
+                    I loved being able to influence the story and be an active part of it in ways that other media could not quite capture. 
+                    I went to college and studied art and video games design because of this interest, 
+                    and while I learned many amazing skills from my education, I never felt like it was quite what I wanted to do. 
+                    After graduating, I changed my career path to web development because I realized that development captures all of the things I love about creating video games, 
+                    but in a way that brings those fun, interactive elements to everyday life. 
+                    Our world today is dependant on the internet for so many things, 
+                    and I want to be able to bring my passion for fun and interactive design to the web.</p>
+            </div>
+            <div className='homeInfo'>
                 <a href="https://www.linkedin.com/in/jaxclark/">LinkedIn</a>
                 <a href="https://github.com/jaxclark">GitHub</a>
-                <p>Phone#: (801)661-9908</p>
+                <p>Phone: (801) 661-9908</p>
                 <p>Email: jamaecla@gmail.com</p>
-            </HomeInfo>
-        </StyledDiv>
+            </div>
+        </div>
     )
 }
