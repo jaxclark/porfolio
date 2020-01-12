@@ -4,8 +4,8 @@ export default function Projects() {
     return(
         <div className='projects'>
             <div className='project1'>
-                <a href="https://github.com/jaxclark/final-fullstack-project">Full-Stack Writer's Helper App</a>
-                <a href="https://github.com/jaxclark/final-fullstack-project"><img src="https://cdn.discordapp.com/attachments/632280517013930044/665316886828810281/Screen_Shot_2020-01-10_at_3.09.14_PM.png" alt="project1"/></a>
+                <a href="https://plotchaser.herokuapp.com/login">Full-Stack Writer's Helper App</a>
+                <a href="https://plotchaser.herokuapp.com/login"><img src="https://cdn.discordapp.com/attachments/632280517013930044/665316886828810281/Screen_Shot_2020-01-10_at_3.09.14_PM.png" alt="project1"/></a>
             </div>
             <div className='project2'>
                 <a href="https://cluemurdermystery.herokuapp.com/">Full-Stack Clue Murder Mystery Game</a>
