@@ -128,6 +128,7 @@ p {
 @import url('https://fonts.googleapis.com/css?family=Expletus+Sans|Trochut|Yeseva+One&display=swap');
 .tracking-in-expand {
   font-family: 'Expletus Sans', 'Federo', 'Yeseva One', 'Trochut', 'Georgia', serif;
+  font-size: 60px;
   display: block;
   justify-content: center;
   padding: 15px 0px 25px 0px;
@@ -306,6 +307,12 @@ p {
   .project3 > a > img {
     width: 600px;
   }
+  .resume > img {
+    height: 85vh;
+    width: auto;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+  } 
 }
 
 @media screen and (max-width: 1000px) {
@@ -342,5 +349,34 @@ p {
   }
   .project3 > a > img {
     width: 460px;
+  }
+  .tracking-in-expand {
+    padding: 25px 0 0 0;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project1 > a > img {
+    width: 250px;
+  }
+  .project2 > a > img {
+    display: inline-block;
+    width: 250px;
+  }
+  .project3 > a > img {
+    width: 250px;
+  }
+  .resume > img {
+    height: 56vh;
+    width: auto;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+  }
+  .resume {
+    height: 80vh;
+  }
+  .tracking-in-expand {
+    font-size: 40px;
   }
 }

@@ -25,7 +25,6 @@ const StyledDiv = styled.div`
     justify-content: center;
     height: 10vh;
     width: 100%;
-    font-size: 60px;
     color: rgb(14, 19, 16);
     background-color: #93c4c0;
     `
