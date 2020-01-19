@@ -217,10 +217,11 @@ p {
   color: rgb(14, 19, 16);
   text-decoration: underline;
 }
-.project1 > a > img {
+.project1 > a > iframe {
   display: block;
   height: auto;
   width: 760px;
+  height: 400px;
   margin-top: 12px;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -247,10 +248,11 @@ p {
   color: rgb(14, 19, 16);
   text-decoration: underline;
 }
-.project2 > a > img {
+.project2 > a > iframe {
   display: block;
   height: auto;
   width: 760px;
+  height: 400px;
   margin-top: 12px;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -272,10 +274,11 @@ p {
   color: rgb(14, 19, 16);
   text-decoration: underline;
 }
-.project3 > a > img {
+.project3 > a > iframe {
   display: block;
   height: auto;
   width: 760px;
+  height: 400px;
   margin-top: 12px;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -298,13 +301,13 @@ p {
 }
 
 @media screen and (max-width: 1200px) {
-  .project1 > a > img {
+  .project1 > a > iframe {
     width: 600px;
   }
-  .project2 > a > img {
+  .project2 > a > iframe {
     width: 600px;
   }
-  .project3 > a > img {
+  .project3 > a > iframe {
     width: 600px;
   }
   .resume > img {
@@ -341,13 +344,13 @@ p {
 }
 
 @media screen and (max-width: 650px) {
-  .project1 > a > img {
+  .project1 > a > iframe {
     width: 460px;
   }
-  .project2 > a > img {
+  .project2 > a > iframe {
     width: 460px;
   }
-  .project3 > a > img {
+  .project3 > a > iframe {
     width: 460px;
   }
   .tracking-in-expand {
@@ -357,14 +360,14 @@ p {
 }
 
 @media screen and (max-width: 480px) {
-  .project1 > a > img {
+  .project1 > a > iframe {
     width: 250px;
   }
-  .project2 > a > img {
+  .project2 > a > iframe {
     display: inline-block;
     width: 250px;
   }
-  .project3 > a > img {
+  .project3 > a > iframe {
     width: 250px;
   }
   .resume > img {
