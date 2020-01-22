@@ -17,10 +17,10 @@ export default function About() {
                     and I want to be able to bring my passion for fun and interactive design to the web.</p>
             </div>
             <div className='homeInfo'>
+                <p>Phone: (801) 661-9908</p>
+                <p>Email: <a className='email' href="mailto:jamaecla@gmail.com">jamaecla@gmail.com</a></p>
                 <a href="https://www.linkedin.com/in/jaxclark/">LinkedIn</a>
                 <a href="https://github.com/jaxclark">GitHub</a>
-                <p>Phone: (801) 661-9908</p>
-                <p>Email: jamaecla@gmail.com</p>
             </div>
         </div>
     )

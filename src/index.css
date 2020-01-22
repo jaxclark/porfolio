@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: 'Federo', serif;
-  color: rgba(0, 0, 0, 0.7);
 }
 /* 
 a {
@@ -32,11 +31,10 @@ p {
   text-align: center;
 }
 .home > a {
-  color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
 }
 .home > a:hover {
-  color: rgb(14, 19, 16);
+  color: rgb(6, 77, 77);
   text-decoration: underline;
 }
 
@@ -69,17 +67,25 @@ p {
 
 }
 .homeInfo > a {
-    color: rgba(0, 0, 0, 0.7);
-    text-decoration: none;
-    display: block;
-    margin-top: 14px;
+  color: rgb(12, 141, 141);
+  text-decoration: none;
+  display: block;
+  margin-top: 14px;
 }
 .homeInfo > a:hover {
-    color: rgb(14, 19, 16);
-    text-decoration: underline;
+  color: rgb(6, 77, 77);
+  text-decoration: underline;
 }
 .homeInfo > p {
-    margin-top: 14px;
+  margin-top: 14px;
+}
+.email {
+  color: rgb(12, 141, 141);
+  text-decoration: none;
+}
+.email:hover {
+  color: rgb(6, 77, 77);
+  text-decoration: underline;
 }
 
 
@@ -111,13 +117,13 @@ p {
 }
 
 .downloadResume > a {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgb(9, 119, 119);
   text-decoration: none;
 }
 
-.downloadResume:hover {
-    color: rgb(14, 19, 16);
-    text-decoration: underline;
+.downloadResume > a:hover {
+  color: rgb(6, 77, 77);
+  text-decoration: underline;
 }
 
 .scale-in-center {
@@ -191,37 +197,41 @@ p {
   min-height: 78vh;
   width: 100%;
   background: linear-gradient(to bottom,  #93c4c0 3%,#c4e4c5 60%,#faead1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7f1f1', endColorstr='#685d99',GradientType=0 ); /* IE6-9 */
   font-size: 18px;
-  color: #685d99;
   display: grid;
   grid-template-rows: repeat(3, auto);
   grid-gap: 20px;
   justify-items: center;
   flex-direction: column;
   padding-top: 16px;
+  padding-bottom: 30px;
 }
-
-.project1 {
+.note {
+  padding-top: 15px;
   grid-row: 1/2;
   justify-self: center;
   text-align: center;
+  font-size: 16px;
+}
+.project1 {
   padding-top: 15px;
+  justify-self: center;
+  text-align: center;
 }
 .project1 > a {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgb(9, 119, 119);
   text-decoration: none;
   margin-top: 14px;
 }
 .project1 > a:hover {
-  color: rgb(14, 19, 16);
+  color: rgb(6, 77, 77);
   text-decoration: underline;
 }
 .project1 > a > iframe {
   display: block;
   height: auto;
-  width: 760px;
-  height: 400px;
+  width: 860px;
+  height: 550px;
   margin-top: 12px;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -229,7 +239,7 @@ p {
 }
 
 .project2 {
-  grid-row: 2/3;
+  grid-row: 3/4;
   justify-self: center;
   text-align: center;
   padding: 10px;
@@ -240,19 +250,19 @@ p {
   display: block;
 }
 .project2 > a {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgb(9, 119, 119);
   text-decoration: none;
   margin-top: 14px;
 }
 .project2 > a:hover {
-  color: rgb(14, 19, 16);
+  color: rgb(6, 77, 77);
   text-decoration: underline;
 }
 .project2 > a > iframe {
   display: block;
   height: auto;
-  width: 760px;
-  height: 400px;
+  width: 860px;
+  height: 550px;
   margin-top: 12px;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -260,25 +270,25 @@ p {
 }
 
 .project3 {
-  grid-row: 3/4;
+  grid-row: 4/5;
   justify-self: center;
   text-align: center;
   padding: 10px;
 }
 .project3 > a {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgb(9, 119, 119);
   text-decoration: none;
   margin-top: 14px;
 }
 .project3 > a:hover {
-  color: rgb(14, 19, 16);
+  color: rgb(6, 77, 77);
   text-decoration: underline;
 }
 .project3 > a > iframe {
   display: block;
   height: auto;
-  width: 760px;
-  height: 400px;
+  width: 860px;
+  height: 550px;
   margin-top: 12px;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -287,16 +297,16 @@ p {
 
 .navLink {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgb(9, 119, 119);
 }
 
 .navLink:hover {
-  color: rgb(14, 19, 16);
+  color: rgb(6, 77, 77);
   text-decoration: underline;
 }
 
 .navLinkActive {
-  color: rgb(14, 19, 16);
+  color: rgb(6, 77, 77);
   text-decoration: underline;
 }
 
