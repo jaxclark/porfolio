@@ -1,6 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export default function Projects() {
+    useEffect(() => {
+        const frames = window.frames;
+        for (let i = 0; i < frames.length; i++) { 
+          const sounds = frames[i].document.getElementsByTagName('audio');
+          for(let j = 0; j<sounds.length; j++){
+            sounds[j].pause();
+          }
+        }
+    }, [])
     return(
         <div className='projects'>
             <div className='note'>
