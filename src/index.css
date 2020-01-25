@@ -67,7 +67,7 @@ p {
 
 }
 .homeInfo > a {
-  color: rgb(12, 141, 141);
+  color: rgb(9, 119, 119);
   text-decoration: none;
   display: block;
   margin-top: 14px;
@@ -80,7 +80,7 @@ p {
   margin-top: 14px;
 }
 .email {
-  color: rgb(12, 141, 141);
+  color: rgb(9, 119, 119);
   text-decoration: none;
 }
 .email:hover {
