@@ -53,7 +53,7 @@ p {
 .aboutDiv {
   grid-column: 2/3;
   padding: 40px;
-  text-align: start;
+  text-align: justify;
 }
 .aboutDiv > p {
     margin: 0;
