@@ -4,9 +4,9 @@ export default function Resume() {
     return(
         <div className='resume'>
             <div className='downloadResume'>
-                <a download href='https://cdn.discordapp.com/attachments/632280517013930044/669246653504553000/JaxClark-JanResume.pdf'>Download Resume</a>
+                <a download href='https://cdn.discordapp.com/attachments/632280517013930044/670792727864016896/JaxClark_Resume.pdf'>Download Resume</a>
             </div>
-            <img className='scale-in-center' src="https://cdn.discordapp.com/attachments/632280517013930044/665294737808424972/JaxClark-Resume.png" alt="Resume"/>
+            <img className='scale-in-center' src="https://cdn.discordapp.com/attachments/632280517013930044/670793037546389514/JaxClark_Resume.png" alt="Resume"/>
         </div>
     )
 }
