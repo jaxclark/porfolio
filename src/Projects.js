@@ -22,19 +22,24 @@ export default function Projects() {
                 <p>Content inside an iframe loses its responsiveness, but the websites themselves are responsive.</p>
             </div>
             <div className='project1'>
-                <a href="https://plotchaser.herokuapp.com/login">Plot Chaser</a>
-                <p>Full-Stack CRUD app to help writers organize their thoughts and their plots.<br/>Built with React, JavaScript, HTML, SCSS, Express, MongoDB, and Node.js.</p>
-                <a href="https://plotchaser.herokuapp.com/login"><iframe title='Plot Chaser' src="https://plotchaser.herokuapp.com/login" alt="project1"/></a>
+                <a href="https://www.djluvaluva.com/">DJ Luva Luva</a>
+                <p>Professional website for local musician, DJ Luva Luva.<br/>Built with React, JavaScript, HTML, SCSS, Express, MongoDB, and Node.js.</p>
+                <a href="https://www.djluvaluva.com/"><iframe title='DJ Luva Luva' src="https://www.djluvaluva.com/" alt="project1"/></a>
             </div>
             <div className='project2'>
-                <a href="https://cluemurdermystery.herokuapp.com/">Clue Murder Mystery</a>
-                <p>Full-stack app inspired by the 1949 Clue board game.<br/>Built with React, JavaScript, HTML, CSS, Express, MongoDB, and Node.js.</p>
-                <a href="https://cluemurdermystery.herokuapp.com/"><iframe title='Clue Murder Mystery' src="https://cluemurdermystery.herokuapp.com/" alt="project2"/></a>
+                <a href="https://plotchaser.herokuapp.com/login">Plot Chaser</a>
+                <p>Full-Stack CRUD app to help writers organize their thoughts and their plots.<br/>Built with React, JavaScript, HTML, SCSS, Express, MongoDB, and Node.js.</p>
+                <a href="https://plotchaser.herokuapp.com/login"><iframe title='Plot Chaser' src="https://plotchaser.herokuapp.com/login" alt="project2"/></a>
             </div>
             <div className='project3'>
+                <a href="https://cluemurdermystery.herokuapp.com/">Clue Murder Mystery</a>
+                <p>Full-stack app inspired by the 1949 Clue board game.<br/>Built with React, JavaScript, HTML, CSS, Express, MongoDB, and Node.js.</p>
+                <a href="https://cluemurdermystery.herokuapp.com/"><iframe title='Clue Murder Mystery' src="https://cluemurdermystery.herokuapp.com/" alt="project3"/></a>
+            </div>
+            <div className='project4'>
                 <a href="http://jax-hp-react-app.surge.sh/">Harry Potter Axios Project</a>
                 <p>Frontend project pulling from a Harry Potter API.<br/>Built with React, JavaScript, HTML, CSS, Axios, and Node.js.</p>
-                <a href="http://jax-hp-react-app.surge.sh/"><iframe className='hpIframe' title='Harry Potter Axios Project' src="http://jax-hp-react-app.surge.sh/" alt="project3"/></a>
+                <a href="http://jax-hp-react-app.surge.sh/"><iframe className='hpIframe' title='Harry Potter Axios Project' src="http://jax-hp-react-app.surge.sh/" alt="project4"/></a>
             </div>
             <div className='gameHeader'>
                 <h1>Game Development</h1>
