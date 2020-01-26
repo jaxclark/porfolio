@@ -19,8 +19,8 @@ export default function About() {
             <div className='homeInfo'>
                 <p>Phone: (801) 661-9908</p>
                 <p>Email: <a className='email' href="mailto:jamaecla@gmail.com">jamaecla@gmail.com</a></p>
-                <a href="https://www.linkedin.com/in/jaxclark/">LinkedIn</a>
-                <a href="https://github.com/jaxclark">GitHub</a>
+                <a href="https://www.linkedin.com/in/jaxclark/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/jaxclark" target="_blank">GitHub</a>
             </div>
         </div>
     )
