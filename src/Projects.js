@@ -47,9 +47,9 @@ export default function Projects() {
             <div className='game1'>
                 <a href="https://www.facebook.com/StepPetsGame/" target="_blank">Step Pets</a>
                 <p>Random Breakfast Internship<br/> Built by a team of 5 with Unity, Photoshop, and Spine.</p>
-                <a href="https://www.facebook.com/StepPetsGame/" target="_blank"><iframe src="https://www.youtube.com/embed/mKADpZYGNL8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
                 <a href="https://www.facebook.com/StepPetsGame/" target="_blank"><img src="https://cdn.discordapp.com/attachments/632280517013930044/670768845446840348/t4_snowy_mountain_mockup_v1y.png" alt="Snowy Mountain Art Assets"/></a>
                 <a href="https://www.facebook.com/StepPetsGame/" target="_blank"><img src="https://cdn.discordapp.com/attachments/632280517013930044/670772864026148874/t5_fantasy_forest_mockup_v4.png" alt="Fantasy Forest Art Assets"/></a>
+                <a href="https://www.facebook.com/StepPetsGame/" target="_blank"><iframe src="https://www.youtube.com/embed/mKADpZYGNL8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
             </div>
             <div className='game2'>
                 <a href="https://major-flex.itch.io/project-rat" target="_blank">Project R.A.T.</a>
