@@ -19,7 +19,7 @@ export default function Projects() {
             </div>
             <div className='note'>
                 <p>Please note that slow loading time is due to how herokuapp handles images, and not the code itself.</p>
-                <p>Content inside an iframe loses its responsiveness, but the websites themselves are responsive.</p>
+                <p>Content inside an iframe loses its responsiveness, but the websites themselves are responsive, thank you.</p>
             </div>
             <div className='project1'>
                 <a href="https://www.djluvaluva.com/" target="_blank">DJ Luva Luva</a>
